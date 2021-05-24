@@ -12,7 +12,7 @@ type covidState = {
   country: string;
 }
 
-const initialState = {
+const initialState: covidState = {
   daily: dataDaily,
   country: 'Japan'
 }
